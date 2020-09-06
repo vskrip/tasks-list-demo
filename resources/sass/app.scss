@@ -1,0 +1,45 @@
+.task-row {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px;
+}
+
+.task-row:hover {
+    box-shadow: 1px 2px #c3b8b8;
+}
+
+.main-panel-body {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.delete-cancel-btn {
+    float: right;
+}
+
+.task-name-show {
+    margin-top: 7px;
+}
+
+.task-name-edit {
+    margin-top: 0;
+}
+
+#task_list li {
+    height: 66px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border: 1px dotted #ccc;
+    cursor: move;
+    margin-top: 12px;
+}
+
+#task_list li.ui-state-highlight {
+    height: 66px;
+    padding: 24px;
+    background-color: #ccf1ff;
+    border: 1px dotted #ccc;
+    cursor: move;
+    margin-top: 12px;
+}
